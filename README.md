@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XOXO Guidebook</title>
     
-    <!-- AQUÍ COMIENZA EL CSS -->
-  
-	/**** GUIDEBOOK XOXO NEXT GEN - COMPLETO Y ACTUALIZADO ****/
-	
-  <style>
-.xoxo-guide,
+    <!-- 1. AQUÍ EL CSS -->
+    <style> 
+       .xoxo-guide,
 .xoxo-guide * {
 box-sizing:border-box;
 scrollbar-width:thin;
@@ -81,14 +78,14 @@ color:var(--gb-text)!important;
 text-decoration:none!important;
 }
 
-/**** INPUTS DE PESTAÑAS PRINCIPALES ****/
+ <!--   INPUTS DE PESTAÑAS PRINCIPALES -->
 
 .xgb-radio,
 .xcanon-radio {
 display:none!important;
 }
 
-/**** ESTRUCTURA GENERAL ****/
+ <!--  ESTRUCTURA GENERAL -->
 
 .xgb-shell {
 display:grid;
@@ -163,7 +160,7 @@ position:relative;
 z-index:2;
 }
 
-/**** BOTONES LATERALES DEL GUIDEBOOK ****/
+ <!--  BOTONES LATERALES DEL GUIDEBOOK -->
 
 .xgb-tabs {
 display:flex;
@@ -245,7 +242,7 @@ color:var(--color1)!important;
 border-color:var(--borde1-c);
 }
 
-/**** COLUMNA PRINCIPAL ****/
+ <!--  COLUMNA PRINCIPAL --> 
 
 .xgb-main {
 min-width:0;
@@ -340,7 +337,7 @@ display:none;
 display:block;
 }
 
-/**** CABECERAS Y BLOQUES ****/
+<!--  CABECERAS Y BLOQUES --> 
 
 .xgb-page-head {
 display:grid;
@@ -565,7 +562,7 @@ text-align:justify;
 color:var(--gb-text);
 }
 
-/**** LISTAS ****/
+<!-- LISTAS  --> 
 
 .xgb-list-title {
 font-family:var(--fuente2);
@@ -672,7 +669,7 @@ line-height:150%;
 color:var(--gb-soft);
 }
 
-/**** MINI CARDS ****/
+<!-- MINI CARDS  -->  
 
 .xgb-mini-cards {
 display:grid;
@@ -753,7 +750,7 @@ text-transform:uppercase;
 color:var(--color1);
 }
 
-/**** CANON Y SEMICANON — GUIDEBOOK ****/
+<!--  CANON Y SEMICANON — GUIDEBOOK --> 
 
 .xcanon-radio {
 display:none!important;
@@ -1266,10 +1263,11 @@ line-height:140%;
 text-align:right;
 color:var(--gb-soft);
 }
+
     </style>
 </head>
 <body>
-    <!-- ESTOS SON LOS BOTONES INVISIBLES QUE FALTABAN PARA LAS PESTAÑAS PRINCIPALES -->
+    <!-- 2. BOTONES INVISIBLES PARA LAS PESTAÑAS (Imprescindibles para que cambien al dar clic) -->
     <input type="radio" name="xgb-main-tabs" id="xgb-tab-amb" checked style="display:none;">
     <input type="radio" name="xgb-main-tabs" id="xgb-tab-normas" style="display:none;">
     <input type="radio" name="xgb-main-tabs" id="xgb-tab-npc" style="display:none;">
@@ -1277,7 +1275,8 @@ color:var(--gb-soft);
     <input type="radio" name="xgb-main-tabs" id="xgb-tab-guia" style="display:none;">
     <input type="radio" name="xgb-main-tabs" id="xgb-tab-sistemas" style="display:none;">
 
-  <div class="xgb-sidebar">
+    <!-- 3. AQUÍ EL HTML -->
+ <div class="xgb-sidebar">
 <div class="xgb-side-card">
 <div class="xgb-side-title">
 Guidebook
