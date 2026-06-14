@@ -7,7 +7,7 @@
     
     <!-- 1. AQUÍ EL CSS -->
     <style> 
-       .xoxo-guide,
+.xoxo-guide,
 .xoxo-guide * {
 box-sizing:border-box;
 scrollbar-width:thin;
@@ -1315,7 +1315,8 @@ actualizado recientemente
 </div>
 </div>
 <div class="xgb-content">
-<!--  INICIO PESTAÑA AMBIENTACIÓN (sin cambios) →
+<!--  INICIO PESTAÑA AMBIENTACIÓN (sin cambios) -->
+
 <div class="xgb-pane xgb-pane-amb">
 <div class="xgb-page-head">
 <div class="xgb-page-icon">
@@ -1357,8 +1358,10 @@ La élite de Nueva York ha sobrevivido a escándalos, juicios y portadas de tabl
 </div>
 </div>
 </div>
-<!--  FIN PESTAÑA AMBIENTACIÓN  →
-<!--  INICIO PESTAÑA NORMAS (sin cambios) →
+<!--  FIN PESTAÑA AMBIENTACIÓN -->
+
+<!--  INICIO PESTAÑA NORMAS (sin cambios) -->
+
 <div class="xgb-pane xgb-pane-normas">
 <div class="xgb-page-head">
 <div class="xgb-page-icon">
@@ -1545,7 +1548,8 @@ Los Insiders son la crema de la sociedad neoyorquina: herederos de fortunas, ape
 </div>
 </div>
 </div>
-<!--  OUTSIDERS  →
+<!--  OUTSIDERS  -->
+
 <div class="xgb-block" style="margin: 0;">
 <img src="https://2img.net/i.imgur.com/xMSkY3e.png.png" alt="Outsiders" style="width: 100%; border-radius: 20px 20px 0 0; display: block;" />
 <div style="padding: 20px;">
